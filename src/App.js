@@ -60,12 +60,12 @@ export default function App() {
 
   // JSX code for login form
   const renderForm = (
+    
     <div className="form">
       <form onSubmit={handleSubmit}>
 
-
         <div className="input-container">
-          <label>Username</label>
+          <label className="label">Username</label>
           <input type="text" name="uname" placeholder="Email" required />
           {renderErrorMessage("uname")}
         </div>
@@ -86,15 +86,16 @@ export default function App() {
         </div>
       </form>
     </div>
+  
   );
 
   return (
+  
     <div className="app">
     
-    <div className="form">
-    
-      <div className="login-form">
-      <div className="blur"/>
+    <div className="form" >
+      <div className="login-form" >
+      {/* <div className="blur"/> */}
         <div className="title"><b>Welcome!</b></div>
         <div className="subtitle">Bitte logge dich in Deinen Account ein.</div>
 
@@ -102,6 +103,7 @@ export default function App() {
         </div>
       </div>
     </div>
+   
   );
 }
 
