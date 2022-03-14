@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
-
-
 import "./index.css";
 
 export default function App() {
-  
   // React States
   const [errorMessages, setErrorMessages] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -56,6 +53,11 @@ export default function App() {
       <div className="error">{errorMessages.message}</div>
     );
 
+
+    // Generate JSX code for error message
+  const backBlur = () => <div className="blur"/>
+  
+
   // JSX code for login form
   const renderForm = (
     <div className="form">
@@ -63,14 +65,14 @@ export default function App() {
 
 
         <div className="input-container">
-          <label>USERNAME</label>
+          <label>Username</label>
           <input type="text" name="uname" placeholder="Email" required />
           {renderErrorMessage("uname")}
         </div>
 
 
         <div className="input-container">
-          <label className="label">PASSWORD</label>
+          <label className="label">Password</label>
           <input type="password" name="pass" placeholder="Password" required />
           {renderErrorMessage("pass")}
         </div>
@@ -87,19 +89,21 @@ export default function App() {
   );
 
   return (
-    
     <div className="app">
+    
+    <div className="form">
+    
       <div className="login-form">
+      <div className="blur"/>
         <div className="title"><b>Welcome!</b></div>
         <div className="subtitle">Bitte logge dich in Deinen Account ein.</div>
 
         {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
         </div>
       </div>
-    
+    </div>
   );
 }
-
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
