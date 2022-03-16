@@ -25,18 +25,18 @@ const events = [
     {
         title: "Big Meeting",
         allDay: true,
-        start: new Date(2021, 6, 0),
-        end: new Date(2021, 6, 0),
+        start: new Date(2022, 2, 0),
+        end: new Date(2022, 2, 0),
     },
     {
         title: "Vacation",
-        start: new Date(2021, 6, 7),
-        end: new Date(2021, 6, 10),
+        start: new Date(2022, 2, 15),
+        end: new Date(2022, 2, 20),
     },
     {
         title: "Conference",
-        start: new Date(2021, 6, 20),
-        end: new Date(2021, 6, 23),
+        start: new Date(2022, 2, 20),
+        end: new Date(2022, 2, 23),
     },
 ];
 
@@ -57,7 +57,7 @@ function AppCalandar() {
                 <input type="text" placeholder="Add Title" style={{ width: "20%", marginRight: "10px" }} value={newEvent.title} onChange={(e) => setNewEvent({ ...newEvent, title: e.target.value })} />
                 <DatePicker placeholderText="Start Date" style={{ marginRight: "10px" }} selected={newEvent.start} onChange={(start) => setNewEvent({ ...newEvent, start })} />
                 <DatePicker placeholderText="End Date" selected={newEvent.end} onChange={(end) => setNewEvent({ ...newEvent, end })} />
-                <button stlye={{ marginTop: "10px" }} onClick={handleAddEvent}>
+                <button stlye={{ marginTop: "20px" }} onClick={handleAddEvent}>
                     Add Event
                 </button>
             </div>

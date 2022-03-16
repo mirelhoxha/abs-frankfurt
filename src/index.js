@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import { BrowserRouter } from "react-router-dom";
 import AppCalandar from './AppCalandar';
+import TrialCalendar from './TrialCalendar'
 
 
 ReactDOM.render(
@@ -11,6 +12,7 @@ ReactDOM.render(
     <BrowserRouter>
     {/* <App /> */}
     <AppCalandar />
+    {/* <TrialCalendar/> */}
   </BrowserRouter>,
   </React.StrictMode>,
   document.getElementById('root')
