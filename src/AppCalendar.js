@@ -40,7 +40,7 @@ const events = [
     },
 ];
 
-function AppCalandar() {
+function AppCalendar() {
 
     const [newEvent, setNewEvent] = useState({ title: "", start: "", end: "" });
     const [allEvents, setAllEvents] = useState(events);
@@ -66,4 +66,4 @@ function AppCalandar() {
     );
 }
 
-export default AppCalandar;
+export default AppCalendar;
