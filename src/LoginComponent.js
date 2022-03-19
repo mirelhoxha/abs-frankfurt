@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
 import "./index.css";
 import "./AppCalendar.js";
 import { useNavigate } from "react-router-dom";
 import Button from "./Button";
-function Login() {
+function LoginComponent() {
   // React States
   const [errorMessages, setErrorMessages] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -100,4 +99,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default LoginComponent;
