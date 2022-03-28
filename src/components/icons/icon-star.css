@@ -1,0 +1,80 @@
+.icon-star {
+    position: relative;
+      box-sizing: content-box;
+      -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      opacity: 1;
+      cursor: default;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      background-color: rgba(113, 128, 150, 1);
+      border-bottom-color: rgba(0, 0, 0, 0);
+      border-bottom-style: solid;
+      border-bottom-width: 1.00px;
+      border-left-color: rgba(0, 0, 0, 0);
+      border-left-style: solid;
+      border-left-width: 1.00px;
+      border-right-color: rgba(0, 0, 0, 0);
+      border-right-style: solid;
+      border-right-width: 1.00px;
+      border-top-color: rgba(0, 0, 0, 0);
+      border-top-style: solid;
+      border-top-width: 1.00px;
+      border-top-left-radius: 14.00px;
+      border-top-right-radius: 14.00px;
+      border-bottom-left-radius: 14.00px;
+      border-bottom-right-radius: 14.00px;
+      box-shadow: none;
+      width: 49.00px;
+    height: 49.00px;
+
+}
+.icon-star > svg {
+    position: absolute;
+        box-sizing: content-box;
+        -ms-transform: rotate(0.00deg);
+    -webkit-transform: rotate(0.00deg);
+    transform: rotate(0.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        margin-top: 0.00px;
+        margin-right: 0.00px;
+        margin-bottom: 0.00px;
+        margin-left: 0.00px;
+        padding-top: 0.00px;
+        padding-right: 0.00px;
+        padding-bottom: 0.00px;
+        padding-left: 0.00px;
+        fill: rgba(255, 255, 255, 1);
+        stroke: rgba(0, 0, 0, 0);
+            stroke-width: 1.00px;
+            stroke-linecap: butt;
+        box-shadow: none;
+        width: 23.00px;
+    height: 23.00px;
+    left: 13px;
+    top: 13px;
+}
+.icon-star,
+.icon-star svg {
+    cursor: pointer !important;
+}
+.icon-star.active svg {
+    fill: rgba(255, 223, 107, 1);
+}
+.icon-star.active {
+    background-color: rgba(76, 91, 237, 1);
+}
