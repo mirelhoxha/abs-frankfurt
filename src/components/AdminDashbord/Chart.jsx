@@ -38,7 +38,6 @@ const options = {
 
 }
 
-
 function Chart() {
   return (
         <div className=''>
@@ -46,8 +45,8 @@ function Chart() {
              data={data} 
              options={options}/>
             {/* <ul> */}
-            <div className='displayFlex'>
-            <ul className='marginTop10 m-2'>
+            <div className='graph'>
+            <ul className=''>
                 
                 {data.labels.map((val, key) =>{
                     return(
