@@ -1,0 +1,10 @@
+.fj {
+    position: relative; width: 125px; height: 125px; margin-top: 60px;
+}
+.fj img {
+    width: 100%; height: 100%;
+}
+.fj > span {
+    position: absolute; color: #fff; width: 100%; text-align: center; padding-top: 10px; color: rgba(255, 255, 255, 1);
+    font-size: 48px; font-family: Cairo-Bold, Arial;
+}
