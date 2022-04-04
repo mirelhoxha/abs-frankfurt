@@ -6,6 +6,8 @@ import AppCalendar from "./AppCalendar";
 import TrialCalendar from "./TrialCalendar";
 import LoginComponent from "./LoginComponent";
 import AdminDashbord from "./components/AdminDashbord/AdminDashbord";
+// import AdminDashbord1 from "./components/AdminDashbord/AdminDashbord1";
+import UserDashbord from "./components/UserDashbord/UserDashbord";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +17,8 @@ ReactDOM.render(
         <Route path="/calendar" element={<AppCalendar />} />
         <Route path="/trial" element={<TrialCalendar />} />
         <Route path="/login" element={<LoginComponent />} />
+        {/* <Route path="/admin" element={<AdminDashbord/>}/> */}
+        <Route path="/user" element={<UserDashbord/>}/>
         <Route path="/admin" element={<AdminDashbord/>}/>
       </Routes>
     </BrowserRouter>
