@@ -121,3 +121,16 @@ table .fc-scrollgrid-liquid {
 .fc th, .fc td {
     padding: 2px;
 }
+.align-right{
+    text-align: right;
+    margin-right: 10px;
+}
+.select-box{
+    height: 36px;
+    border-radius: 5px;
+    background-color: rgb(103 115 241);
+    border-color: rgb(103 115 241);
+    color: white;
+    padding: 5px;
+    padding-right: 16px;
+}
