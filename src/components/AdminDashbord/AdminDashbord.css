@@ -12,8 +12,11 @@
     padding-top: 3px !important;
     padding: 0px !important;
 }
-.dropdown-toggle::after{
+.flex-row .dropdown-toggle::after{
     content: none !important;
+}
+.dropdown{
+    background-color: white;
 }
 .calIcon{ 
     color: rgba(76, 91, 237, 1);
@@ -27,11 +30,11 @@
 .grayColor{
     color: gray;
 }
-.dropdown-menu.show{
+.flex-row .dropdown-menu.show{
     width: 250px;
     padding: 0px;
 }
-.dropdown-item{
+.flex-row .dropdown-item{
     padding: 0px !important;
 }
 .displayFlex{

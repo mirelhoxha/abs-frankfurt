@@ -3,7 +3,7 @@ import { Dropdown, Container,Row, Col, Button, SplitButton } from "react-bootstr
 import 'bootstrap/dist/css/bootstrap.css';
 import styled, { css } from 'styled-components';
 import { FaCalendar, FaSortDown, FaTasks, FaPrint } from "react-icons/fa";
-import './AdminDashbord';
+import './AdminDashbord-test';
 import Calender from './Calender';
 import { CircularProgressbar,buildStyles } from 'react-circular-progressbar';
 import "react-circular-progressbar/dist/styles.css";

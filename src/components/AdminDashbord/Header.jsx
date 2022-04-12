@@ -8,7 +8,6 @@ import '../shared//style.css';
 import Calender from './Calender';
 import IconHamburger from "../icons/icon-hamburger";
 
-
 function Header() {
 
 // const [ items, setItems ] = useState(New);
