@@ -1,0 +1,123 @@
+.background-style{
+    background-color: white !important;
+    padding: 20px;
+    border-radius: 10px;
+    /* margin-left: 2px; */
+
+}
+.fc .fc-scrollgrid-liquid{
+    border-top: none;
+    border: none;
+}
+
+.fc .fc-scrollgrid-liquid th{
+    border-right: none !important;
+    border-left: none !important;
+}
+thead{
+    height: 50px;
+}
+.fc .fc-col-header-cell-cushion {
+    color: rgba(165, 165, 165, 1);
+    font-weight: normal;
+}
+.fc .fc-scrollgrid-liquid thead tr {
+    border-left: none !important;
+}
+td{
+    border-radius: 10px;
+    /* padding: 20px !important; */
+  
+}
+.events {
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1) !important;
+    border-radius: 10px;
+    /* border */
+}
+#external-events .fc-event {
+    margin: 1em 0;
+    cursor: move;
+    background-color: #f8f9fa;
+    height: 80px;
+    border-radius: 10px;
+}
+.display-flex{
+    display: flex !important;
+    flex-direction: row !important;
+}
+.moon-icon{
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+    height: 43px;
+    width: 43px;
+    font-size: 30px;
+    padding-top: 6px;
+    padding-left: 6px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sun-icon{
+    border-radius: 14px;
+    background-color: rgba(236, 201, 75, 1);
+    color: white;
+    height: 43px;
+    width: 43px;
+    font-size: 30px;
+    padding-top: 6px;
+    padding-left: 6px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.time{
+    margin-top: 6px;
+}
+#dropdown-basic-button{
+    width: 150px !important;
+}
+
+.calendar .content{
+    padding: 10px !important;
+}
+
+table .fc-scrollgrid-liquid {
+    border: none;
+}
+
+.fc .fc-daygrid-day-frame {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 6px;
+}
+
+.fc-day-other .fc-daygrid-day-frame {
+    border: 1px solid #dddddd;
+}
+
+.fc .fc-daygrid-day-frame .fc-daygrid-day-top {
+    text-align: left;
+}
+
+.fc .fc-daygrid-day-top {
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.fc .fc-daygrid-day-top a {
+    color: black;
+}
+
+.fc-scrollgrid.fc-scrollgrid-liquid tbody {
+    border: none;
+    border: hidden;
+}
+.fc-theme-standard td, .fc-theme-standard th{
+    border: none;
+}
+.fc th, .fc td {
+    padding: 2px;
+}

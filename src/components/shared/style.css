@@ -123,3 +123,26 @@ min-height: 100vh; font-family: 'Open Sans', serif;
       flex-direction: column;
     }
   }
+
+  #external-events {
+    position: absolute;
+    z-index: 2;
+  
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    background: #eee;
+    overflow-y: scroll;
+  }
+  
+  #external-events .fc-event {
+    margin: 1em 0;
+    cursor: move;
+    background-color: lightblue;
+  }
+  /* .fc-header-toolbar > .fc-toolbar-chunk:nth-child(1)::before {
+    font-size: 1.75em;
+    content: 'Service Plan';
+  } */
+  .fc-scrollgrid-sync-inner a{
+    text-decoration: none !important;
+  }

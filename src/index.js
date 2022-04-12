@@ -8,6 +8,7 @@ import LoginComponent from "./LoginComponent";
 import AdminDashbord from "./components/AdminDashbord/AdminDashbord";
 // import AdminDashbord1 from "./components/AdminDashbord/AdminDashbord1";
 import UserDashbord from "./components/UserDashbord/UserDashbord";
+import Calendar  from "./components/Calendar/Calendar";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.render(
         {/* <Route path="/admin" element={<AdminDashbord/>}/> */}
         <Route path="/user" element={<UserDashbord/>}/>
         <Route path="/admin" element={<AdminDashbord/>}/>
+        <Route path="/calendar1" element={<Calendar/>}/>
       </Routes>
     </BrowserRouter>
     
