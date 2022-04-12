@@ -28,10 +28,21 @@ class Calendar extends Component {
       { title: "C21F", id: "2", icon: "FaRegMoon", time:"18:20 - 06:35"},
       { title: "C1F ", id: "3", icon: "FiSun",time:"18:20 - 06:35" },
       { title: "C31F", id: "4", icon: "FaRegMoon",time:"18:20 - 06:35" },
-    ]
+    ],
+    calendarEvents: [
+      {
+        title: "Atlanta Monster",
+        start: new Date("2022-04-04 00:00"),
+        id: "99999998"
+      },
+      {
+        title: "My Favorite Murder",
+        start: new Date("2022-04-05 00:00"),
+        id: "99999999"
+      }
+    ],
   };
   
-
   /**
    * adding dragable properties to external events through javascript
    */
@@ -118,6 +129,9 @@ class Calendar extends Component {
       }
       return day;
     }
+    function handleYear(e) {
+      console.log("year change: " + e.target.value);
+    }
     return (
         <Container fluid className="calendar">
         <Row className="app-row">
@@ -134,27 +148,27 @@ class Calendar extends Component {
                         <h3>Service Plan</h3>
                         </Col>
 
-                        <Col>
-                          <DropdownButton id="dropdown-basic-button" title="section">
-                            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-                          </DropdownButton>
+                        <Col className="align-right">
+                          <select id="dropdown-basic-button" title="section" className="select-box">
+                            <option >Action</option>
+                            <option >Another action</option>
+                            <option >Something else</option>
+                          </select>
                         </Col>
                     
-                        <Col>
-                        <DropdownButton id="dropdown-basic-button" title="Month">
-                          <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                          <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-                        </DropdownButton>
+                        <Col className="align-right">
+                        <select id="dropdown-basic-button" className="select-box" title="month" onChange={(e) => handleYear(e)}>
+                          <option value="01">Jun</option>
+                          <option value="02">Feb</option>
+                          <option value="03">March</option>
+                        </select>
                         </Col>
-                        <Col>
-                        <DropdownButton id="dropdown-basic-button" title="Year">
-                          <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                          <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-                        </DropdownButton>
+                        <Col className="align-right">
+                        <select id="dropdown-basic-button" className="select-box" title="Year">
+                          <option >2022</option>
+                          <option >2021</option>
+                          <option >2000</option>
+                        </select>
                         </Col>
                       </Row>
                       
@@ -175,12 +189,15 @@ class Calendar extends Component {
                           plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
                           ref={this.calendarComponentRef}
                           weekends={this.state.calendarWeekends}
-                          // Weekday={'long'}
                           events={this.state.calendarEvents}
                           eventDrop={this.drop}
                           // drop={this.drop}
+                          drop={(param) => {
+                           
+                            console.log(this.state.calendarEvents)
+
+                          }}
                           dayHeaderFormat={(param) => {
-                            console.log(param);
                             return weekDays(param.date.day.toString());
                             
                           }}
