@@ -76,7 +76,7 @@ td{
     margin-top: 6px;
 }
 #dropdown-basic-button{
-    width: 150px !important;
+    width: 150px ;
 }
 
 .calendar .content{
@@ -133,4 +133,53 @@ table .fc-scrollgrid-liquid {
     color: white;
     padding: 5px;
     padding-right: 16px;
+    margin-right: 10px;
+}
+.Analysis-graph{
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.Analysis-graph h4{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: normal;
+   
+}
+.request{
+    background-color: rgba(255, 223, 107, 1);
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.export-button{
+    margin-left: 10px;
+    margin-right: 20px;
+}  
+.fc-daygrid-event-harness{  
+    margin-top: 0px;
+    /* border: yellow; */
+    background-color: rgba(255, 237, 170, 1);
+    border-radius: 5px;
+    /* padding-bottom: 2px; */
+    margin-bottom: 2px;
+}
+.fc-daygrid-event-dot{
+    display: none;
+}
+.fc-event-time{
+    display: none;
+}
+.select-year{
+    width: 90px !important;
+}
+.fc-scrollgrid-sync-inner{
+    display: flex;
+}
+.fc-daygrid-day-events{
+    margin-top: 10px;
+}
+.fc .fc-daygrid-day-frame {
+    height: 90px;
 }

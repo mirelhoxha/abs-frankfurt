@@ -18,10 +18,10 @@ import Weekdays from "react-calendar/dist/umd/MonthView/Weekdays";
  import "./Calendar.css";
 import Sidebar  from "../Sidebar/Sidebar";
 import Filter from "./Filter"
-import Events from "./Events";
 import CalendarTable from "./CalendarTable";
+import Graph from "./Graph";
 
-class Calendar extends Component {
+class Archive extends Component {
   state = {
     events: [
       { title: "C11F", id: "1", icon: "FiSun", time:"18:20 - 06:35"},
@@ -37,11 +37,17 @@ class Calendar extends Component {
         eventId:"FiSun",
       },
       {
-        title: "C1F",
+        title: "C21F",
         start: new Date("2022-04-05 00:00"),
         id: "99999999",
         eventId:"FiSun",
-      }
+      },
+      {
+        title: "C11F",
+        start: new Date("2022-04-04 00:00"),
+        id: "99999998",
+        eventId:"FiSun",
+      },
     ],
   };
   render() {
@@ -59,14 +65,18 @@ class Calendar extends Component {
                   <Row>
                     <Col lg={9} sm={9} md={9} className="background-style">
                     <div>
-                      <Filter  title="Service Plan"/>
+                      <Filter title="Archive" />
                       </div>
                       <div className="demo-app-calendar" id="mycalendartest">
                       <CalendarTable calendarEvents={this.state.calendarEvents} />
                       </div>
                     </Col>
                     <Col lg={3} sm={3} md={3}  >
-                      <Events events={this.state.events} />
+                    <div className='request Analysis-graph'>
+                        Your request is being reviewed 
+                    </div>
+                        <Graph/>
+                      {/* <Events events={this.state.events} /> */}
                     </Col>
                   </Row>
                 </div>
@@ -79,4 +89,4 @@ class Calendar extends Component {
     );
   }
 }
-export default Calendar;
+export default Archive;

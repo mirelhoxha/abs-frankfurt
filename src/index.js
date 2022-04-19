@@ -9,6 +9,9 @@ import AdminDashbord from "./components/AdminDashbord/AdminDashbord";
 // import AdminDashbord1 from "./components/AdminDashbord/AdminDashbord1";
 import UserDashbord from "./components/UserDashbord/UserDashbord";
 import Calendar  from "./components/Calendar/Calendar";
+import Archive from "./components/Calendar/Archive";
+import ArchiveAdmin from "./components/Calendar/ArchiveAdmin";
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,6 +25,8 @@ ReactDOM.render(
         <Route path="/user" element={<UserDashbord/>}/>
         <Route path="/admin" element={<AdminDashbord/>}/>
         <Route path="/calendar1" element={<Calendar/>}/>
+        <Route path="/archive" element={<Archive/>}/>
+        <Route path="/archive-admin" element={<ArchiveAdmin/>}/>
       </Routes>
     </BrowserRouter>
     
