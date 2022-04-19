@@ -31,14 +31,18 @@ export const data = {
     },
   ],
 };
-const options = {
-    labels:{
-        display:false
-    }
-
-}
 
 function Chart() {
+  const options = {
+    plugins: {
+        legend: {
+            display: false
+        },
+        tooltips: {
+            enabled: false
+        }
+    }
+  } 
   return (
         <div className=''>
             <Doughnut
