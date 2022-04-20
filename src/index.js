@@ -8,9 +8,9 @@ import LoginComponent from "./LoginComponent";
 import AdminDashbord from "./components/AdminDashbord/AdminDashbord";
 // import AdminDashbord1 from "./components/AdminDashbord/AdminDashbord1";
 import UserDashbord from "./components/UserDashbord/UserDashbord";
-import Calendar  from "./components/Calendar/Calendar";
-import Archive from "./components/Calendar/Archive";
+import ArchiveUser from "./components/Calendar/ArchiveUser";
 import ArchiveAdmin from "./components/Calendar/ArchiveAdmin";
+import CalendarAdmin from "./components/Calendar/CalendarAdmin";
 
 
 ReactDOM.render(
@@ -24,8 +24,8 @@ ReactDOM.render(
         {/* <Route path="/admin" element={<AdminDashbord/>}/> */}
         <Route path="/user" element={<UserDashbord/>}/>
         <Route path="/admin" element={<AdminDashbord/>}/>
-        <Route path="/calendar1" element={<Calendar/>}/>
-        <Route path="/archive" element={<Archive/>}/>
+        <Route path="/calendar-admin" element={<CalendarAdmin/>}/>
+        <Route path="/archive-user" element={<ArchiveUser/>}/>
         <Route path="/archive-admin" element={<ArchiveAdmin/>}/>
       </Routes>
     </BrowserRouter>

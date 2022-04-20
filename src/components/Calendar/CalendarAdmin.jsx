@@ -21,7 +21,7 @@ import Filter from "./Filter"
 import Events from "./Events";
 import CalendarTable from "./CalendarTable";
 
-class Calendar extends Component {
+class CalendarAdmin extends Component {
   state = {
     events: [
       { title: "C11F", id: "1", icon: "FiSun", time:"18:20 - 06:35"},
@@ -79,4 +79,4 @@ class Calendar extends Component {
     );
   }
 }
-export default Calendar;
+export default CalendarAdmin;
