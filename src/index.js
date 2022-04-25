@@ -11,7 +11,7 @@ import UserDashbord from "./components/UserDashbord/UserDashbord";
 import ArchiveUser from "./components/Calendar/ArchiveUser";
 import ArchiveAdmin from "./components/Calendar/ArchiveAdmin";
 import CalendarAdmin from "./components/Calendar/CalendarAdmin";
-
+import UserAdministration from "./components/UserAdministration/UserAdministration";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -27,6 +27,7 @@ ReactDOM.render(
         <Route path="/calendar-admin" element={<CalendarAdmin/>}/>
         <Route path="/archive-user" element={<ArchiveUser/>}/>
         <Route path="/archive-admin" element={<ArchiveAdmin/>}/>
+        <Route path="/user-admin" element={<UserAdministration />}/>
       </Routes>
     </BrowserRouter>
     
