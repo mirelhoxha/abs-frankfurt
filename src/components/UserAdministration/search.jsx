@@ -2,12 +2,14 @@ import './search.css';
 import IconPhone from "../icons/icon-phone";
 
 
+
 const Search = () => {
 
 
     return (
-        <div className="display-flex">
-            <input name='search' className='search-input' placeholder="Search User"/>
+        <div className="">
+            <input class="mainLoginInput" type="text" placeholder="&#61442; "/> <br/>
+
         </div>
     );
 };
