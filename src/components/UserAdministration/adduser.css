@@ -113,8 +113,9 @@
   background-color: rgb(103,115,241);
   border-color: rgb(103,115,241);
   border-radius: 10px;
-  width: 238px;
+  width: 252px;
   height: 55.00px;
   color: white;
+  border: solid;
 
 }

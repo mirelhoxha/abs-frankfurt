@@ -6,6 +6,7 @@ import Item from './item';
 import Search from './search';
 import AddUser from './adduser';
 import FormShow from './FormShow';
+import './UserAdministration.css';
 
 
 function UserAdministration() {
@@ -16,25 +17,21 @@ function UserAdministration() {
                 <Col className="content">
                     
                     <Row>
-                        <Col>
-                            <div className="top-bar">
+                        <Col lg={5} md={12} sm={12} className="margin-b-2">
+                            <div className="">
                                 <h2>User Administration</h2>
                             </div>
                         </Col>
-                        <Col>
-                        <Search />
+                        <Col lg={4} md={6} sm={6} className="margin-b-2">
+                            <Search />
                         </Col>
-                        <Col>
+                        <Col lg={3} md={6}  sm={6} className="margin-b-2">
                             <AddUser />
                         </Col>
 
-                        
-                        {/* <AddUser /> */}
                     </Row>
                     <div className="content-wrapper">
                         <Item />
-                        {/* <FormShow /> */}
-
                     </div>
                 </Col>
 

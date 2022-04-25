@@ -2,3 +2,13 @@
     display: flex !important;
     flex-direction: column !important;
 }
+.top-bar{
+    padding-left: 0px !important;
+}
+.text-align{
+    text-align: right !important;
+    /* margin-right: 0px !important; */
+}
+.margin-b-2{
+    margin-bottom: 2px;
+}
