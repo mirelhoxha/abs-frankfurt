@@ -29,7 +29,7 @@ const Item = () => {
       <Row >
          {items.map((plan) => (
            
-            <Col lg={3} md={3} className="m-b">
+            <Col lg={3} md={6} md={3} md={6} className="m-b">
                 <div className="margin-right">
                 <div className="profile">
                     
