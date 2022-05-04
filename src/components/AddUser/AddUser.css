@@ -1,0 +1,13 @@
+.item-form{
+    height: 862px;
+    width: 1102px;
+    display: inline;
+}
+
+.item-admin {
+    margin-bottom: 50px;
+}
+
+.col {
+    margin-left: 20px;
+}

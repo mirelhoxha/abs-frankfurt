@@ -1,10 +1,9 @@
-import IconThreeDot from "../icons/icon-threedot";
+
 import './item.css';
-import IconRw1 from "../icons/icon-rw1";
-import IconPhone from "../icons/icon-phone";
 import { Col ,Row } from "react-bootstrap";
 import { BiDotsVerticalRounded } from "react-icons/bi";
 import { HiMail } from "react-icons/hi";
+import PaginationItem from './pagination-item';
 
 const Item = () => {
     const items =[
@@ -12,10 +11,10 @@ const Item = () => {
             name: "Angela Moss",
         },
         {
-            name: "Angela ",
+            title: "Paramedic ",
         },
         {
-            name: "Angela ",
+            email: "angelamoss@mail.com ",
         },
         {
             name: "Angela ",
@@ -23,11 +22,12 @@ const Item = () => {
         {
             name: "Angela ",
         }
+        
     ]
     return (
     <>
       <Row >
-         {items.map((plan) => (
+         {items.map((items) => (
            
             <Col lg={3} md={6}  sm={6} className="m-b">
                 <div className="margin-right">
@@ -36,7 +36,6 @@ const Item = () => {
                     <img src="/images/placeholderAm.png" className="profile-size" />
                     <BiDotsVerticalRounded className="icon-dot" />
                     <div className="box">
-                    {/* <IconRw1 /> */}
                         <span >RW1</span>
                     </div>
                 </div>
@@ -50,13 +49,18 @@ const Item = () => {
                         <Col className="icon-width ">
                         <HiMail  className="icon-mail"/>
                         </Col>
-                        <Col className="email-width">angelamoss@gmail.com
+                        <Col className="email-width">angelamoss@mail.com
                         </Col>
                     </Row>
                 </div>
             </Col>
             
          ))}
+        </Row>
+        <Row>
+            <div className='pagination-item'>
+                <PaginationItem />
+            </div>
         </Row>
     </>
     )

@@ -1,0 +1,28 @@
+.pagination {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 50px;
+    
+}
+
+.page-link {
+    /* height: 50px;
+    width: 60px; */
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: blue;
+
+}
+ .l-icon {
+     margin-right: 15px; 
+ }
+ 
+ .r-icon {
+     margin-left: 10px;
+ }
+
+ .nav-pag{
+     margin-right: 40px;
+ }
+
