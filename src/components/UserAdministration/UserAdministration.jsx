@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Pagination, Row } from 'react-bootstrap';
 import '../shared/style.css';
 import Sidebar from '../Sidebar/Sidebar';
 import Item from './item';
 import Search from './search';
 import AddUser from './adduser';
-import FormShow from './FormShow';
 import './UserAdministration.css';
+
 
 
 function UserAdministration() {
@@ -33,6 +33,7 @@ function UserAdministration() {
                     <div className="content-wrapper">
                         <Item />
                     </div>
+                    
                 </Col>
 
             </Row>
