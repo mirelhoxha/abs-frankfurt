@@ -14,6 +14,7 @@ import CalendarAdmin from "./components/Calendar/CalendarAdmin";
 import UserAdministration from "./components/UserAdministration/UserAdministration";
 import ShiftAdministration from "./components/ShiftAdministration/ShiftAdministration";
 import AddUser from "./components/AddUser/AddUser";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
