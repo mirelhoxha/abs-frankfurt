@@ -13,6 +13,7 @@ import ArchiveAdmin from "./components/Calendar/ArchiveAdmin";
 import CalendarAdmin from "./components/Calendar/CalendarAdmin";
 import UserAdministration from "./components/UserAdministration/UserAdministration";
 import ShiftAdministration from "./components/ShiftAdministration/ShiftAdministration";
+import AddUser from "./components/AddUser/AddUser";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -30,6 +31,7 @@ ReactDOM.render(
         <Route path="/archive-admin" element={<ArchiveAdmin/>}/>
         <Route path="/user-admin" element={<UserAdministration />}/>
         <Route path="/shift-administration" element={<ShiftAdministration />}/>
+        <Route path="/add-user" element={<AddUser />}/>
       </Routes>
     </BrowserRouter>
     
