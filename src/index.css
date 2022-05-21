@@ -1,137 +1,102 @@
 .app {
-  font-family: 'Cairo',sans-serif;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  background-image:url("background/background.jpeg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  top: 0;
-  bottom: 0;
-  position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
- 
-}
-
-
-input[type="text"],
-input[type="password"] {
-  text-align: left;
-  background-position: center;
-  width: 250px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  font-size: 10px;
-  padding: 10px 20px;
-}
-
-button[type="submit"] {
-  margin-top: 10px;
-  margin-bottom: 40px;
-  cursor: pointer;
-  font-size: 10px;
-  background: #1320a1;
-  border: 1px solid #1320a1;
-  border-radius: 10px;
-  width:300px;
-  color: rgb(236, 235, 241);
-  padding: 10px 20px;
-}
-
-button[type="submit"]:hover {
-  background: #6a6adf;
-}
-
-
-.button-container {
-  display: flex;
-  justify-content: center;
-  
-}
-.form{
-  position: absolute; 
-  width:350px;
-  height:450px;
-  border-radius: 7px;  
-  background-position: center;
-  backdrop-filter: blur(10px) ;
-
+    font-family: 'Cairo', sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-image: url("background/background.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: fixed;
+    width: 100%;
+    height: 100%;
 }
 
 .login-form {
-  
-  background-image: url(
-    background/logo.svg
-  );
-  background-size:100px;
-  margin-top: 20px;
-  background-repeat: no-repeat;
-  background-position: top;
-  border-radius: 10px;
-  padding-top: 30px;
- 
-}
-.title {
-  font-size: 30px;
-  text-align: center;
-  margin-top: 30px;
+    width: 450px;
+    height: 550px;
+    border-radius: 15px;
+    background-position: center;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
 }
 
+.login-header {
+    text-align: center;
+}
+
+.login-header .header-image {
+    margin-top: 25px;
+    width: 230px;
+}
+
+.login-header .title {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-header .subtitle {
+    font-size: 14px;
+    margin-top: 20px;
+}
 
 .list-container {
-  display: flex;
+    display: flex;
 }
 
 .error {
-  color: red;
-  font-size: 12px;
+    color: red;
+    font-size: 12px;
 }
 
-
-.subtitle{
-  font-size:12px;
-  text-align: center;
-  color:rgb(58, 55, 55);
+.login-body .input-container, .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
-.forgot{
-  font-size: 12px;
-  margin-bottom: 10px;
-  text-align: center;
+.input-container .label {
+    font-size: 14px;
 }
 
-.input-container {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin: 10px;
-  align-items: center;
-  justify-content: center;
-
-}
-.label{
-  
-  text-align: left !important;
-  justify-content: left !important;
-  display: flex !important;
-  direction: ltr !important;
-  left: -35% !important;
-  position: relative;
-  font-size:12px;
-
+.input-container input {
+    width: 100%;
+    border-radius: 5px;
+    height: 50px;
+    padding: 5px;
+    font-size: 1.2em;
+    border: 1px solid lightgray;
 }
 
-.login-input{
-
-  text-align: left;
-  font-size:20px;
-
+.button-container button[type="submit"] {
+    cursor: pointer;
+    font-size: 1.2rem;
+    background: #1320a1;
+    border: none;
+    border-radius: 10px;
+    color: rgb(236, 235, 241);
+    height: 50px;
 }
 
+.button-container button[type="submit"]:hover {
+    background: #6a6adf;
+}
+
+.button-container button[type="submit"]:active {
+    background: #1320a1;
+}
+
+.login-body .form .forgot {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+}
