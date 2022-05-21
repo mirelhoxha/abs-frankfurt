@@ -44,7 +44,7 @@ import { Container, Dropdown, DropdownButton} from "react-bootstrap";
         < >      
             <div className="shift-table-view table-responsive">
                 
-            <table class="table ">
+            <table className="table ">
                 
                 <tbody>
                 <tr className="td-color ">
@@ -72,52 +72,52 @@ import { Container, Dropdown, DropdownButton} from "react-bootstrap";
                     <td>Otto</td>
                     <td>@mdo</td>
                     <td>
-                        <input type="checkbox" class="checkbox" name="subscribe" value="newsletter"
+                        <input type="checkbox" className="checkbox" name="subscribe" value="newsletter"
                         style={{accentColor:shift.color}}
                         />
                     </td>
                     <td>
-                        <input type="checkbox" class="checkbox" name="subscribe" value="newsletter"
+                        <input type="checkbox" className="checkbox" name="subscribe" value="newsletter"
                         style={{accentColor:shift.color}}
                         />
                     </td>
                     <td>
-                        <input type="checkbox" class="checkbox" name="subscribe" value="newsletter"
+                        <input type="checkbox" className="checkbox" name="subscribe" value="newsletter"
                         style={{accentColor:shift.color}}
                         />
                     </td>
                     <td>
-                        <input type="checkbox" class="checkbox" name="subscribe" value="newsletter"
+                        <input type="checkbox" className="checkbox" name="subscribe" value="newsletter"
                         style={{accentColor:shift.color}}
                         />
                     </td>
                     <td>
-                        <input type="checkbox" class="checkbox" name="subscribe" value="newsletter"
+                        <input type="checkbox" className="checkbox" name="subscribe" value="newsletter"
                         style={{accentColor:shift.color}}
                         />
                     </td>
                     <td>
-                        <input type="checkbox" class="checkbox" name="subscribe" value="newsletter"
+                        <input type="checkbox" className="checkbox" name="subscribe" value="newsletter"
                         style={{accentColor:shift.color}}
                         />
                     </td>
                     <td>
-                        <input type="checkbox" class="checkbox" name="subscribe" value="newsletter"
+                        <input type="checkbox" className="checkbox" name="subscribe" value="newsletter"
                         style={{accentColor:shift.color}}
                         />
                     </td>
                     <td>
-                        <input type="checkbox" class="checkbox" name="subscribe" value="newsletter"
+                        <input type="checkbox" className="checkbox" name="subscribe" value="newsletter"
                         style={{accentColor:shift.color}}
                         />
                     </td>
                     <td>
-                        <input type="checkbox" class="checkbox" name="subscribe" value="newsletter"
+                        <input type="checkbox" className="checkbox" name="subscribe" value="newsletter"
                         style={{accentColor:shift.color}}
                         />
                     </td>
                     <td>
-                        <input type="checkbox" class="checkbox" name="subscribe" value="newsletter"
+                        <input type="checkbox" className="checkbox" name="subscribe" value="newsletter"
                         style={{accentColor:shift.color}}
                         />
                     </td>
