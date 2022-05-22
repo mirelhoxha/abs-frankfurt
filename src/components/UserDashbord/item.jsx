@@ -9,9 +9,9 @@ const Item = ({ item, onClickStar }) => {
     const onClick = () => {
         onClickStar(item);
     };
-    return <div className={ `item ${ item.status === true ? 'active' : 'deactive' }` }>
+    return <div className={`item ${item.status === true ? 'active' : 'deactive'} ${item.isMarked === true ? 'marked' : ''} `}>
         <div>
-            <IconStar active={ item.isMarked } onClick={ onClick } />
+            <IconStar active={item.isMarked} onClick={onClick} />
             <IconColorize />
         </div>
         <div>
@@ -30,4 +30,5 @@ const Item = ({ item, onClickStar }) => {
         </div>
     </div>;
 };
+
 export default Item;

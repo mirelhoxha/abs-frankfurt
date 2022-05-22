@@ -15,7 +15,6 @@ function UserAdministration() {
             <Row className="app-row">
                 <Sidebar />
                 <Col className="content">
-                    
                     <Row>
                         <Col lg={5} md={12} sm={12} className="margin-b-2">
                             <div className="">
@@ -33,12 +32,9 @@ function UserAdministration() {
                     <div className="content-wrapper">
                         <Item />
                     </div>
-                    
                 </Col>
-
             </Row>
         </Container>
-
     );
 
 }

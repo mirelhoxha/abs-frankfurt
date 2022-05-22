@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AppCalendar from "./AppCalendar";
 import TrialCalendar from "./TrialCalendar";
@@ -14,28 +13,29 @@ import CalendarAdmin from "./components/Calendar/CalendarAdmin";
 import UserAdministration from "./components/UserAdministration/UserAdministration";
 import ShiftAdministration from "./components/ShiftAdministration/ShiftAdministration";
 import AddUser from "./components/AddUser/AddUser";
+import "./index.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route index element={<LoginComponent />} />
-        <Route path="/calendar" element={<AppCalendar />} />
-        <Route path="/trial" element={<TrialCalendar />} />
-        <Route path="/login" element={<LoginComponent />} />
-        {/* <Route path="/admin" element={<AdminDashbord/>}/> */}
-        <Route path="/user" element={<UserDashbord/>}/>
-        <Route path="/admin" element={<AdminDashbord/>}/>
-        <Route path="/calendar-admin" element={<CalendarAdmin/>}/>
-        <Route path="/archive-user" element={<ArchiveUser/>}/>
-        <Route path="/archive-admin" element={<ArchiveAdmin/>}/>
-        <Route path="/user-admin" element={<UserAdministration />}/>
-        <Route path="/shift-administration" element={<ShiftAdministration />}/>
-        <Route path="/add-user" element={<AddUser />}/>
-      </Routes>
-    </BrowserRouter>
-    
-  </React.StrictMode>,
-  document.getElementById("root")
+    <React.StrictMode>
+        <BrowserRouter>
+            <Routes>
+                <Route index element={<LoginComponent />} />
+                <Route path="/calendar" element={<AppCalendar />} />
+                <Route path="/trial" element={<TrialCalendar />} />
+                <Route path="/login" element={<LoginComponent />} />
+                {/* <Route path="/admin" element={<AdminDashbord/>}/> */}
+                <Route path="/user" element={<UserDashbord />} />
+                <Route path="/admin" element={<AdminDashbord />} />
+                <Route path="/calendar-admin" element={<CalendarAdmin />} />
+                <Route path="/archive-user" element={<ArchiveUser />} />
+                <Route path="/archive-admin" element={<ArchiveAdmin />} />
+                <Route path="/user-admin" element={<UserAdministration />} />
+                <Route path="/shift-administration" element={<ShiftAdministration />} />
+                <Route path="/add-user" element={<AddUser />} />
+            </Routes>
+        </BrowserRouter>
+
+    </React.StrictMode>,
+    document.getElementById("root")
 );

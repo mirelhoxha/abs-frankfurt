@@ -154,10 +154,9 @@ ul{
     left: 10px !important;
     top: 10px !important;
 }
-.active .icon-star {
+/* .active .icon-star {
     background-color: rgba(76, 91, 237, 1) !important;
- 
-}
+} */
 .iconMail{
     font-size: 63px;
     color: rgba(76, 91, 237, 1);

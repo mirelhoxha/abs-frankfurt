@@ -1,14 +1,13 @@
 import { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import '../shared/style.css';
-import './UserAdmin.css';
-
 import Item from './item';
 import Sidebar from '../Sidebar/Sidebar';
 import Tabs from './tabs';
 import New from '../../lib/new.json';
 import Approved from '../../lib/new.json';
 import Rejected from '../../lib/new.json';
+import '../shared/style.css';
+import './UserAdmin.css';
 
 function UserDashbord() {
 
