@@ -1,95 +1,132 @@
-.station-view{
+.station-view {
     background-color: white;
     height: 650px;
     border-radius: 10px;
 }
-.station-title{
+
+.station-title {
     margin-left: 20px;
     padding-top: 20px;
 }
-.station-list{
+
+.station-list {
     overflow-y: scroll;
     margin-top: 30px;
 }
-.station-list p{
+
+.station-list p {
     margin-left: 20px;
     color: gray;
     height: 30px;
     font-size: 18px;
     cursor: pointer;
-    
+
 }
-.station-list p :hover{
+
+.station-list p :hover {
     color: blue;
 }
-.buttons{
-    background-color: rgb(103,115,241);
-    border-color: rgb(103,115,241);
+
+.buttons {
+    background-color: rgb(103, 115, 241);
+    border-color: rgb(103, 115, 241);
     border-radius: 10px;
     width: 200px;
-    height: 45.00px;
+    height: 55.00px;
     color: white;
     border: solid;
-  
+    padding-top: 10px !important;
 }
-.a-r{
+
+.buttons .icon {
+    margin-top: 4px;
+}
+
+.buttons h6 {
+    margin-left: 20px;
+    font-size: 1.2rem;
+
+
+}
+
+.a-r {
     text-align: left;
 }
-.icon{
-    margin-bottom: 5px;
-}
-.shift-table-view{
+
+.shift-table-view {
     background-color: white;
     height: 550px;
     border-radius: 10px;
     margin-top: 30px;
 }
-.header-title{
+
+.header-title {
     margin-top: 20px;
 }
-.shift-table-view thead tr th{
+
+.shift-table-view thead tr th {
     border: none !important;
 }
-.shift-table-view tbody tr th{
+
+.shift-table-view tbody tr th {
     border: none !important;
 }
-.td-color td{
+
+table thead tr td{
+    font-weight: bold;
+    border-bottom: none;
+}
+
+table thead td {
+    border-bottom: none;
+}
+
+table tbody {
+    border-top: none !important;
+}
+
+.td-color td {
     color: gray;
 }
-.table-responsive{
+
+.col-day {
+    width: 30px;
+    text-align: center;
+}
+
+.col-type {
+    width: 80px;
+    text-align: center;
+}
+
+.table-responsive {
     max-width: 100%;
     overflow-x: scroll;
     padding: 15px;
 }
+
 .checkbox {
     /* -webkit-appearance:none; */
-    width:20px;
-    height:20px;
-    border-radius:5px;
-    border:2px solid #555;
+    width: 23px;
+    height: 23px;
+    border-radius: 5px !important;
+    border: 1px solid rgb(103, 115, 241) !important;
 }
-/* .checkbox:checked {
-    background: rgb(3, 17, 43);
-} */
-.shift-color{
-    width:20px;
-    height:20px;
+
+.shift-color {
+    width: 20px;
+    height: 20px;
     border-radius: 5px;
 
 }
-.disply-flex{
+
+.disply-flex {
     display: flex;
     flex-direction: row;
 }
-.buttons{
-    padding-top: 10px !important;
-}
-.buttons h6{
-    margin-left: 20px;
-}
-.align-r{
+
+
+
+.align-r {
     text-align: right;
 }
-/* .buttons{
-    margin-top: 10px !important;
-} */
