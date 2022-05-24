@@ -7,29 +7,29 @@ import 'react-calendar/dist/Calendar.css';
 const CalendarContainer = styled("div")`
 
   /* ~~~ container styles ~~~ */
-  font-size:8px;
+  font-size:14px;
   .react-calendar__navigation {
-    font-size:9px;
+    font-size:14px;
   }
 `;
 function Calender() {
     const [isOpen, setIsOpen] = useState(false);
     const [selectedOption, setSelectedOption] = useState(null);
-  
+
     const toggling = () => setIsOpen(!isOpen);
-  
+
     const onOptionClicked = value => () => {
-      setSelectedOption(value);
-      setIsOpen(false);
-      console.log(selectedOption);
+        setSelectedOption(value);
+        setIsOpen(false);
+        console.log(selectedOption);
     }
-    return ( 
+    return (
         <>
-        <CalendarContainer>
-            <Calendar calendarType='US' />
-        </CalendarContainer>
+            <CalendarContainer>
+                <Calendar calendarType='US' />
+            </CalendarContainer>
         </>
-     );
+    );
 }
 
 export default Calender;

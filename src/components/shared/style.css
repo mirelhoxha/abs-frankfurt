@@ -21,7 +21,7 @@ body {
 
 .sidebar {
     padding-left: 50px !important;
-    width: 320px !important;
+    width: 340px !important;
     background-color: white;
 }
 
@@ -73,7 +73,7 @@ body {
     content: "";
     position: absolute;
     top: 0px;
-    right: -25px;
+    right: -10px;
     width: 7px;
     height: 100%;
     background-color: rgba(76, 91, 237, 1);
@@ -117,7 +117,6 @@ body {
 .sidebar .progress>div {
     border-radius: 20px !important;
 }
-
 
 .sidebar .contact {
     display: flex;
