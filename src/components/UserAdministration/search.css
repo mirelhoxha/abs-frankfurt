@@ -1,21 +1,22 @@
-@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
-
-
-.mainLoginInput{
-  width: 338px;
-  height: 55.00px;
-  border-radius: 10px;
-  border-color: white !important;
-  font-size: 30px !important;
-  color: black !important;
-
+.search-container {
+    margin-top: 10px;
+}
+.search-container .search-input {
+    width: 100%;
+    height: 60px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    font-size: 1.4rem;
+    color: black;
 }
 
-.mainLoginInput::-webkit-input-placeholder { 
-font-family: FontAwesome;
-border-color: white !important;
-color: rgb(111, 111, 226);
-
+.search-container .input-group-text {
+    height: 60px;
+    background-color: white;
+    border: none;
 }
 
-
+.search-container .input-group-text::-webkit-input-placeholder { 
+    color: lightgray;
+    font-weight: normal;
+}

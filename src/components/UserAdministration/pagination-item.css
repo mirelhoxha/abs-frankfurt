@@ -1,28 +1,57 @@
-.pagination {
-    display: flex;
-    flex-direction: row-reverse;
-    height: 50px;
-    
-}
-
-.page-link {
-    /* height: 50px;
-    width: 60px; */
+.pagination .page-item {
+    width: 50px;
     text-align: center;
-    background-color: transparent;
-    border-radius: 10px;
-    border-color: blue;
-
+    font-size: 1.4rem;
 }
- .l-icon {
-     margin-right: 15px; 
- }
- 
- .r-icon {
-     margin-left: 10px;
- }
 
- .nav-pag{
-     margin-right: 40px;
- }
+.pagination .page-item.page-prev {
+    margin-right: 10px;
+    border-radius: 30px;
+}
+
+.pagination .page-item.page-prev .page-link {
+    border-radius: 15px;
+    border: 1px solid rgba(76, 91, 237, 1);
+    background: transparent;
+    font-size: 2rem;
+    padding: 0px;
+}
+
+.pagination .page-item.page-next {
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.pagination .page-item.page-next .page-link {
+    border-radius: 15px;
+    border: 1px solid rgba(76, 91, 237, 1);
+    background: transparent;
+    font-size: 2rem;
+    padding: 0px;
+}
+
+.pagination .page-item .page-link {
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid rgba(76, 91, 237, 1);
+    border-bottom: 1px solid rgba(76, 91, 237, 1);
+}
+
+.pagination .page-item .page-link {
+    background: transparent;
+}
+
+.pagination .page-item.active .page-link {
+    background: rgba(76, 91, 237, 1);
+}
+
+.pagination .page-item:nth-child(2) .page-link {
+    border-left: 1px solid rgba(76, 91, 237, 1);
+    border-radius: 15px 0px 0px 15px;
+}
+
+.pagination .page-item:nth-last-child(2) .page-link {
+    border-right: 1px solid rgba(76, 91, 237, 1);
+    border-radius: 0px 15px 15px 0px;
+}
 
