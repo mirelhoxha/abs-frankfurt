@@ -11,13 +11,13 @@ const Item = () => {
         <Row className='user-form'>
             <Col lg={12} className='form-header'>
                 <Row>
-                    <Col lg={1} className='col-arrow'>
+                    <Col lg={1} xs={1} className='col-arrow'>
                         <FaArrowLeft className='icon-arrow' />
                     </Col>
-                    <Col lg={10} className='col-title'>
+                    <Col lg={10} xs={10} className='col-title'>
                         <h3>General Information</h3>
                     </Col>
-                    <Col lg={1} className='col-threedots'>
+                    <Col lg={1} xs={1} className='col-threedots'>
                         <BsThreeDotsVertical className='icon-threedots' />
                     </Col>
                 </Row>
@@ -89,7 +89,7 @@ const Item = () => {
                             </Row>
                         </Col>
 
-                        <Col className='col-3'>
+                        <Col className='col-lg-3 col-xs-12'>
                             <Row>
                                 <Col lg={12}>
                                     <span className='form-label'><h6>PROFILE PICTURE</h6></span>
@@ -123,7 +123,7 @@ const Item = () => {
                                         ))}
                                     </Col>
                                 </Col>
-                                <Col lg={12}>
+                                <Col lg={12} style={{textAlign: 'center'}}>
                                     <button className='btn-add'>
                                         <Row>
                                             <Col lg={3}><FaUserPlus className='icon' /> </Col>
