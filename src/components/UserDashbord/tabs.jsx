@@ -7,7 +7,7 @@ import './tabs.css';
 
 const Tabs = ({ onChangeTab }) => {
 
-    const [ selectedTab, setSelectedTab ] = useState('new');
+    const [selectedTab, setSelectedTab] = useState('new');
 
     const onClick = tab => {
         setSelectedTab(tab);
@@ -15,21 +15,21 @@ const Tabs = ({ onChangeTab }) => {
     };
 
     return <div className="tabs">
-    <button className="mobile-menu">
-        <IconHamburger />
-    </button>
-    <span onClick={ () => onClick('new') } className={ selectedTab == 'new' ? 'active' : '' }>
-      <IconNew />
-      <span>New</span>
-    </span>
-    <span onClick={ () => onClick('approved') } className={ selectedTab == 'approved' ? 'active' : '' }>
-      <IconApproved />
-      <span>Approved</span>
-    </span>
-    <span onClick={ () => onClick('rejected') } className={ selectedTab == 'rejected' ? 'active' : '' }>
-      <IconRejected />
-      <span>Rejected</span>
-    </span>
-  </div>
+        <button className="mobile-menu">
+            <IconHamburger />
+        </button>
+        <span onClick={() => onClick('new')} className={selectedTab == 'new' ? 'active' : ''}>
+            <IconNew />
+            <span>New</span>
+        </span>
+        <span onClick={() => onClick('approved')} className={selectedTab == 'approved' ? 'active' : ''}>
+            <IconApproved />
+            <span>Approved</span>
+        </span>
+        <span onClick={() => onClick('rejected')} className={selectedTab == 'rejected' ? 'active' : ''}>
+            <IconRejected />
+            <span>Rejected</span>
+        </span>
+    </div>
 };
 export default Tabs;

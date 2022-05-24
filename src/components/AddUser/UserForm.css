@@ -1,0 +1,133 @@
+.user-form {
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.0392156862745098));
+    margin-bottom: 40px;
+}
+
+.form-header {
+    height: 80px;
+    padding-top: 17px;
+    border-bottom: 1px solid rgb(244, 244, 244);
+}
+
+.form-header .col-arrow {
+    text-align: left;
+}
+
+.form-header .col-arrow .icon-arrow {
+    height: 28px;
+    width: 28px;
+    margin-top: 5px;
+}
+
+.form-header .col-title {
+    font-weight: normal;
+}
+
+.form-header .col-threedots {
+    font-size: 30px;
+    text-align: right;
+}
+
+.form-header .col-threedots .icon-threedots {
+    align-items: flex-end;
+    color: rgb(185, 184, 184);
+}
+
+
+.form-body {
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 40px;
+}
+
+.form-input {
+    height: 55px;
+    width: 95%;
+    border: none;
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 10px;
+    font-size: large;
+
+}
+
+.form-input:placeholder-shown {
+    font-size: large;
+    color: black;
+    border: none;
+
+}
+
+.form-label {
+    color: rgba(199, 199, 199, 1);
+}
+
+.contact-details {
+    margin: 20px 0px;
+}
+
+.employment-details {
+    margin: 20px 0px;
+}
+
+.profile-image-container {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.profile-image-container .profile-image {
+    width: 240px;
+    color: gray;
+}
+
+.btn-camera{
+    background-color: white;
+    height: 55px;
+    width: 240px;
+    border-color: rgba(76, 91, 237, 1);
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.btn-camera .icon {
+    height: 25px;
+    width: 25px;
+    color: rgb(0, 0, 168);
+    align-items: flex-start;
+    margin-left: -25px;
+    margin-bottom: -13px;
+}
+
+.btn-camera .text {
+    color: rgb(0, 0, 168);
+    margin-left: -70px;
+    margin-top: 7px;
+}
+
+.check-box {
+    border-color: rgb(2, 2, 148);
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.btn-add {
+    width: 240px;
+    height: 55px;
+    border: none;
+    background: linear-gradient(90deg, #4d5ced, #7681f0);
+    color: white;
+    border-radius: 10px;
+    padding-top: 8px;
+}
+
+.btn-add .icon {
+    font-size: 2rem;
+}
+
+.btn-add .text {
+    font-size: 1.5rem;
+}

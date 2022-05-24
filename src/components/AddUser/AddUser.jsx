@@ -1,29 +1,27 @@
-import './AddUser.css';
 import { Col, Container, Row } from 'react-bootstrap';
-import '../shared/style.css';
 import Sidebar from '../Sidebar/Sidebar';
-import Item from './item';
+import UserForm from './UserForm';
 
-
+import '../shared/style.css';
+import './AddUser.css';
 
 function AddUser() {
-    return(
+    return (
         <Container fluid>
-        <Row className="app-row">
-            <Sidebar />
+            <Row className="app-row">
+                <Sidebar />
                 <Col className="content">
                     <div className='item-admin'>
                         <h2>User Administration</h2>
                     </div>
-                    <div className='item-form'>
-                        <Item/>
+                    <div>
+                        <Col lg={9} md={9} sm={12}>
+                            <UserForm />
+                        </Col>
                     </div>
                 </Col>
             </Row>
-
         </Container>
-
     );
-
 };
 export default AddUser;

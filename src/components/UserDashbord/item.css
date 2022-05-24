@@ -23,25 +23,26 @@
     border-radius: 20px;
 }
 
-.item > div:first-child {
+.item>div:first-child {
     width: 160px;
 }
 
-.item > div:last-child {
+.item>div:last-child {
     flex: 1;
 }
 
-.item > div:first-child .icon-star::before {
+.item>div:first-child .icon-star::before {
     content: none;
 }
 
-.item [class^="icon-"], [class*=" icon-"] {
+.item [class^="icon-"],
+[class*=" icon-"] {
     display: block;
     width: 50px !important;
     height: 50px !important;
 }
 
-.item .icon-star > svg {
+.item .icon-star>svg {
     width: 25px;
     height: 25px;
     left: 12px !important;
@@ -52,8 +53,8 @@
     background-color: rgba(76, 91, 237, 1) !important;
 }
 
-.item.marked .icon-star > svg {
-    fill:rgba(255, 223, 107, 1);
+.item.marked .icon-star>svg {
+    fill: rgba(255, 223, 107, 1);
 }
 
 .item img {
