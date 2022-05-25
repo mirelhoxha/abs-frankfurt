@@ -14,6 +14,7 @@ import "./AppCalendar.css"
 const locales = {
     "en-US": require("date-fns/locale/en-US"),
 };
+
 const localizer = dateFnsLocalizer({
     format,
     parse,

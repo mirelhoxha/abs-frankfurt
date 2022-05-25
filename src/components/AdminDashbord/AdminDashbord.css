@@ -155,7 +155,7 @@
 .contentDetail .contentDescription {
     margin-top: 10px;
     font-weight: normal;
-    
+
 }
 
 .WishList {
@@ -195,8 +195,7 @@ ul {
     content: none;
 }
 
-.images [class^="icon-"],
-[class*=" icon-"] {
+.images [class^="icon-"], [class*=" icon-"] {
     display: block;
     width: 40px !important;
     height: 40px !important;
@@ -279,7 +278,6 @@ ul {
 }
 
 @media only screen and (max-width: 1000px) {
-
     .CircularProgressbar {
         width: 100% !important;
         vertical-align: middle;
@@ -306,10 +304,8 @@ ul {
 
 @media only screen and (max-width: 700px) {
 
-
     .wishListDisplay {
         flex-direction: column !important;
-        ;
     }
 
     .marginTop {

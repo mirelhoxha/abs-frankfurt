@@ -123,7 +123,7 @@ const Item = () => {
                                         ))}
                                     </Col>
                                 </Col>
-                                <Col lg={12} style={{textAlign: 'center'}}>
+                                <Col lg={12} style={{ textAlign: 'center' }}>
                                     <button className='btn-add'>
                                         <Row>
                                             <Col lg={3}><FaUserPlus className='icon' /> </Col>

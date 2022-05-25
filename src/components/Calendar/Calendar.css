@@ -1,40 +1,47 @@
-.background-style{
+.background-style {
     background-color: white !important;
     padding: 20px;
     border-radius: 10px;
     /* margin-left: 2px; */
 
 }
-.fc .fc-scrollgrid-liquid{
+
+.fc .fc-scrollgrid-liquid {
     border-top: none;
     border: none;
 }
 
-.fc .fc-scrollgrid-liquid th{
+.fc .fc-scrollgrid-liquid th {
     border-right: none !important;
     border-left: none !important;
 }
-thead{
+
+thead {
     height: 50px;
 }
+
 .fc .fc-col-header-cell-cushion {
     color: rgba(165, 165, 165, 1);
     font-weight: normal;
 }
+
 .fc .fc-scrollgrid-liquid thead tr {
     border-left: none !important;
 }
-td{
+
+td {
     border-radius: 10px;
     /* padding: 20px !important; */
-  
+
 }
+
 .events {
     background-color: rgba(255, 255, 255, 1);
     border-color: rgba(255, 255, 255, 1) !important;
     border-radius: 10px;
     /* border */
 }
+
 #external-events .fc-event {
     margin: 1em 0;
     cursor: move;
@@ -42,11 +49,13 @@ td{
     height: 80px;
     border-radius: 10px;
 }
-.display-flex{
+
+.display-flex {
     display: flex !important;
     flex-direction: row !important;
 }
-.moon-icon{
+
+.moon-icon {
     border-radius: 14px;
     background-color: black;
     color: white;
@@ -59,7 +68,8 @@ td{
     margin-top: 10px;
     margin-left: 10px;
 }
-.sun-icon{
+
+.sun-icon {
     border-radius: 14px;
     background-color: rgba(236, 201, 75, 1);
     color: white;
@@ -72,14 +82,16 @@ td{
     margin-top: 10px;
     margin-left: 10px;
 }
-.time{
+
+.time {
     margin-top: 6px;
 }
-#dropdown-basic-button{
-    width: 150px ;
+
+#dropdown-basic-button {
+    width: 150px;
 }
 
-.calendar .content{
+.calendar .content {
     padding: 10px !important;
 }
 
@@ -115,17 +127,23 @@ table .fc-scrollgrid-liquid {
     border: none;
     border: hidden;
 }
-.fc-theme-standard td, .fc-theme-standard th{
+
+.fc-theme-standard td,
+.fc-theme-standard th {
     border: none;
 }
-.fc th, .fc td {
+
+.fc th,
+.fc td {
     padding: 2px;
 }
-.align-right{
+
+.align-right {
     text-align: right;
     margin-right: 10px;
 }
-.select-box{
+
+.select-box {
     height: 36px;
     border-radius: 5px;
     background-color: rgb(103 115 241);
@@ -135,29 +153,34 @@ table .fc-scrollgrid-liquid {
     padding-right: 16px;
     margin-right: 10px;
 }
-.Analysis-graph{
+
+.Analysis-graph {
     background-color: white;
     border-radius: 10px;
     margin-bottom: 10px;
 }
-.Analysis-graph h4{
+
+.Analysis-graph h4 {
     text-align: center;
     font-size: 20px;
     padding-top: 20px;
     font-weight: normal;
-   
+
 }
-.request{
+
+.request {
     background-color: rgba(255, 223, 107, 1);
     height: 40px;
     padding-left: 15px;
     padding-top: 5px;
 }
-.export-button{
+
+.export-button {
     margin-left: 10px;
     margin-right: 20px;
-}  
-.fc-daygrid-event-harness{  
+}
+
+.fc-daygrid-event-harness {
     margin-top: 0px;
     /* border: yellow; */
     background-color: rgba(255, 237, 170, 1);
@@ -165,21 +188,27 @@ table .fc-scrollgrid-liquid {
     /* padding-bottom: 2px; */
     margin-bottom: 2px;
 }
-.fc-daygrid-event-dot{
+
+.fc-daygrid-event-dot {
     display: none;
 }
-.fc-event-time{
+
+.fc-event-time {
     display: none;
 }
-.select-year{
+
+.select-year {
     width: 90px !important;
 }
-.fc-scrollgrid-sync-inner{
+
+.fc-scrollgrid-sync-inner {
     display: flex;
 }
-.fc-daygrid-day-events{
+
+.fc-daygrid-day-events {
     margin-top: 10px;
 }
+
 .fc .fc-daygrid-day-frame {
     height: 90px;
 }
