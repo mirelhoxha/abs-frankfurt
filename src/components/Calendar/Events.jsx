@@ -44,24 +44,24 @@ class Events extends Component {
                     </p>
                     {this.state.events.map(event => (
                         <div
-                            className="fc-event display-flex"
+                            className="fc-event event-display-flex"
                             title={event.title}
                             data={event.id}
                             key={event.id}
                         >
 
                             {event.icon == "FaRegMoon" &&
-                                <div className="moon-icon display-flex">
+                                <div className="moon-icon event-display-flex">
                                     <FaRegMoon />
                                 </div>
                             }
 
                             {event.icon == "FiSun" &&
-                                <div className="sun-icon display-flex">
+                                <div className="sun-icon event-display-flex">
                                     <FiSun />
                                 </div>
                             }
-                            <div className="display-flex time">
+                            <div className="event-display-flex time">
                                 {event.title}
                                 <br />
                                 {event.time} UHR

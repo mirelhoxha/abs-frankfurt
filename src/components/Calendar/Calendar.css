@@ -50,21 +50,20 @@ td {
     border-radius: 10px;
 }
 
-.display-flex {
-    display: flex !important;
-    flex-direction: row !important;
+.event-display-flex {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
 }
 
 .moon-icon {
     border-radius: 14px;
     background-color: black;
     color: white;
-    height: 43px;
-    width: 43px;
-    font-size: 30px;
-    padding-top: 6px;
-    padding-left: 6px;
-    margin-right: 10px;
+    height: 55px;
+    width: 55px;
+    font-size: 35px;
+    padding: 10px 10px 10px 10px;
     margin-top: 10px;
     margin-left: 10px;
 }
@@ -73,22 +72,22 @@ td {
     border-radius: 14px;
     background-color: rgba(236, 201, 75, 1);
     color: white;
-    height: 43px;
-    width: 43px;
-    font-size: 30px;
-    padding-top: 6px;
-    padding-left: 6px;
-    margin-right: 10px;
+    height: 55px;
+    width: 55px;
+    font-size: 35px;
+    padding: 10px 10px 10px 10px;
     margin-top: 10px;
     margin-left: 10px;
 }
 
 .time {
-    margin-top: 6px;
+    margin-top: 12px;
 }
 
 #dropdown-basic-button {
     width: 150px;
+    height: 45px;
+    font-size: 1.1rem;
 }
 
 .calendar .content {
@@ -198,7 +197,7 @@ table .fc-scrollgrid-liquid {
 }
 
 .select-year {
-    width: 90px !important;
+    width: 150px !important;
 }
 
 .fc-scrollgrid-sync-inner {
