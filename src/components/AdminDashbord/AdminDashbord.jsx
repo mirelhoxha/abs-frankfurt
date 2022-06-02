@@ -11,11 +11,11 @@ function AdminDashbord() {
     // const [ items, setItems ] = useState(New);
     return (
         <Container fluid>
-            <Row className="app-row  bg-blue">
+            <Row className="app-row bg-blue">
                 <Sidebar />
                 <Col className="content bg-gray">
                     <div>
-                        <div className="top-bar flex-row">
+                        <div className="top-bar-admin flex-row">
                             <Header />
                         </div>
                         <div className="content-wrapper">

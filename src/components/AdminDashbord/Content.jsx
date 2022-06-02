@@ -53,9 +53,9 @@ function Content() {
                         </div>
                     </div>
                 </Col>
-                <Col lg={9} md={6} sm={12} className="marginTop">
+                <Col lg={9} md={6} sm={12} xs={12} className="marginTop">
                     <Row>
-                        <Col lg={4} sm={12}>
+                        <Col lg={4} sm={12} xs={12}>
                             <div className="summaryContent displayFlex ">
                                 <div className="prograssBar">
                                     <CircularProgressbar

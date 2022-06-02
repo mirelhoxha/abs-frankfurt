@@ -24,10 +24,24 @@
     content: none !important;
 }
 
-.top-bar {
+.top-bar-admin {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.top-bar-admin .mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .top-bar-admin {
+        display: block;
+    }
+
+    .top-bar-admin h2 {
+        margin-left: 0px;
+    }
 }
 
 .dropdown {
@@ -81,11 +95,11 @@
 
 .summaryContent {
     background-color: white;
+    border: 1px solid lightgray;
     margin: 3px;
     /* margin-right: 30px; */
     border-radius: 10px;
-    height: 134px;
-
+    /* height: 134px; */
 }
 
 .chartContent {
@@ -110,8 +124,8 @@
 .prograssBar {
     height: 100px;
     width: 100px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .prograssBar .iconMail {
@@ -170,6 +184,25 @@
     font-weight: bold;
 }
 
+@media screen and (max-width: 600px) {
+    .WishList {
+        margin-left: 0px;
+    }
+
+    .WishList .displayFlex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .WishList .images {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
+
 .FaPrint {
     margin-right: 30px;
     font-size: 24px;
@@ -195,7 +228,8 @@ ul {
     content: none;
 }
 
-.images [class^="icon-"], [class*=" icon-"] {
+.images [class^="icon-"],
+[class*=" icon-"] {
     display: block;
     width: 40px !important;
     height: 40px !important;
@@ -292,9 +326,9 @@ ul {
         vertical-align: middle;
     }
 
-    .WishList {
+    /* .WishList {
         margin-left: 40px;
-    }
+    } */
 
     .marginTop {
         margin-top: 270px;
